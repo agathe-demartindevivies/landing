@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Agathe's website</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700|Lora:400,500,700" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
+</head>
+<body>
+    <div class="banner">
+        <div class="container">
+            <h1>
+                First time in Brazil ?
+            </h1>
+            <h5> 
+                You've come to the right place
+            </h5>
+            <h3>
+                From sun-soaked beaches to bustling metropolises and colonial charm, Brazil offers unforgettable experiences for every type of traveler.   
+            </h3>
+        </div> 
+    </div> 
+
+     <header>
+        <nav>
+            <ul>
+                <li><a href="#Cities">Cities</a></li>
+                <li><a href="#Nature">Nature</a></li>
+                <li><a href="#Traveling">Traveling </a></li>
+                <li><a href="#Contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+      
+
+
+
+    <button id="scrollToTopBtn" onclick="scrollToTop()">&#8679;</button>
+
+    <script>
+        window.onscroll = function() {
+            var scrollToTopBtn = document.getElementById("scrollToTopBtn");
+            if (document.body.scrollTop > 200 || document.documentElement.scrollTop > 200) {
+                scrollToTopBtn.style.display = "block";
+            } else {
+                scrollToTopBtn.style.display = "none";
+            }
+        };
+
+        function scrollToTop() {
+            window.scrollTo({top: 0, behavior: 'smooth'});
+        }
+    </script>
+    <main>
+
+      
+   <section id="Cities">
+        <h2>
+            Best cities to visit ! 
+        </h2>
+        <div class="cards">
+            <div class="card">
+                <img src="images/Rio.jpg" alt="Rio">
+                <div class="text-content">
+                <h3>Rio de Janeiro</h3>
+                <p>Visit the city that never sleeps, never stays still, where you could never get bored ! The most famous carnival in the world, Copacabana and Ipanema beaches, samba, caïprinha, colors, Christ the Redeemer, dance, music, sunrise... PARADISE !
+                </p>
+            </div>
+            </div>
+            <div class="card">
+                <img src="images/bahia.jpg" alt="bahia">
+                <div class="text-content">
+                <h3>Salvador de Bahia</h3>
+                <p>
+                    On coastline of northeastern Brazil, it is a vibrant, cultural heartland that blends history, music, and natural beauty. Its colorful mosaic of cobblestone streets, colonial architecture, and lively markets gave Salvador its nickname : The "Capital of Happiness"       
+                </p>
+            </div>
+            </div>  
+            <div class="card">
+                <img src="images/manaus.jpg" alt="manaus">
+                <div class="text-content">
+                <h3>Manaus in the Amazon</h3>
+                <p>
+                    In the heart of the Amazon, Manaus is a captivating Brazilian city that serves as the gateway to the world’s most biodiverse rainforest. A blend of culture, history, and natural wonder, and an unforgettable journey into both urban charm and untamed wilderness.                
+                </p>
+            </div>  
+        </div>
+    </div>
+    </section>
+
+
+        <section id="Nature">
+            <h2>Nature</h2>
+            <div class="cards">
+            <div class="card">
+                <img src="images/lencois.jpg" alt="lencois">
+                <div class="text-content">
+                <h3>Lençóis Maranhenses</h3>
+                <p>This stunning natural wonder offers vast white sand dunes and turquoise lagoons formed by seasonal rains. Known for its surreal beauty, this magical destination offers breathtaking landscapes, unique wildlife, and adventures like swimming and sandboarding. 
+                </p>
+            </div>
+            </div>
+            <div class="card">
+                <img src="images/chapada.jpg" alt="chapada">
+                <div class="text-content">
+                <h3>Chapada Diamantina</h3>
+                <p>Located in Bahia, is a breathtaking national park known for its rugged mountains, waterfalls, caves, and rich biodiversity. A paradise for hikers and adventurers, it offers stunning landscapes, crystal-clear rivers, and iconic attractions like Fumaça Waterfall and Pai Inácio Hill.        
+                </p>
+            </div>
+            </div>  
+            <div class="card">
+                <img src="images/pipa.jpg" alt="pipa">
+                <div class="text-content">
+                <h3>Pipa beach</h3>
+                <p>In Rio Grande do Norte, it is a vibrant coastal paradise known for its golden sands, turquoise waters, and lively atmosphere. Perfect for surfing, kitesurfing, sunsets, beachside relaxation, and nightlife, it offers stunning landscapes, playful dolphins, and charming local culture.               
+                </p>
+            </div>  
+        </div>
+    </div>
+        </section>
+
+          <section id="Traveling">
+             <h2>Traveling</h2>
+            <iframe src="https://9v5j3hg9xdi.typeform.com/to/PsS3IzSa" width="100%" height="400" frameborder="0"></iframe>
+        </section>
+
+
+
+    <div id="Contact" class="cards">
+        <div class="card">
+            <h2>Name</h2>
+                <p>Agathe de Viviés</p>
+        </div>
+        <div class="card">
+            <h2>Email</h2>
+                <p>agathe.de-martin-de-vivies@hec.edu</p>
+        </div>
+        <div class="card">
+            <h2>Phone</h2>
+                <p>+33 6 81 07 56 11</p>
+        </div>
+    </div>
+
+    </main>
+
+    <footer>
+        <h4>&copy; 2024 Agathe de Viviés. All rights reserved.</h4>
+    </footer>
+</body>
+
+</html>
